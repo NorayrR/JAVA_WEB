@@ -7,6 +7,7 @@
   <groupId>norayr</groupId>
   <artifactId>demo</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
 
   <name>demo</name>
   <!-- FIXME change it to the project's website -->
@@ -25,6 +26,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+          <version>5.0.9.RELEASE</version>
+      </dependency>
   </dependencies>
 
   <build>
